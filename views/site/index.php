@@ -42,7 +42,14 @@ $this->title = 'My Yii Application';
   </a>
 </div>
 
-
+<p>
+Gomati provides precast concrete molds and precast concrete forms that are ideal for any precast production plant.
+Precast construction is made easier when you are using molds and forms that are of the highest quality.
+Gomati can provide the precast concrete molds and precast concrete forms necessary to create precast concrete of all varieties.
+</p>
+<p>
+Customized solutions for total precast construction including commercial buildings, parking structures, bridges, warehouses and more. Our engineers work with your team to ensure profitable realization of your project. Precast production of prestressed and non-prestressed elements can be accomplished using high quality and durable molds for precast.
+</p>
 <!-- <div class="site-index">
 
     <div class="jumbotron">
