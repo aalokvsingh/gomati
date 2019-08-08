@@ -755,3 +755,7 @@ background-color: #689bf7 !important;
     background-color: #204993;
     color:#e2e7f1;
 }
+.navbar-brand{ 
+    background: url(../images/12whitelogo.png) center / contain no-repeat;
+    width: 200px;
+  }

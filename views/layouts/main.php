@@ -5,7 +5,7 @@
 
 /* @var $this \yii\web\View */
 /* @var $content string */
-
+use yii\helpers\Url;
 use app\widgets\Alert;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
@@ -37,8 +37,10 @@ if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+        'brandLabel' => '',
         'brandUrl' => Yii::$app->homeUrl,
+        // 'brandLabel' => Yii::$app->name,
+        // 'brandLabel' => '<img src="'.Url::base(true).'/images/whitelogo.png" class="img-responsive"/>',
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
@@ -66,7 +68,7 @@ if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
     NavBar::end();
     ?>
 
-    <div class="container-fluid contentarea">
+    <div class="container contentarea">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
