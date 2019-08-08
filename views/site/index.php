@@ -2,6 +2,7 @@
 
 /* @var $this yii\web\View */
 use yii\bootstrap\Carousel;
+use yii\helpers\Url;
 $this->title = 'My Yii Application';
 ?>
 
@@ -16,19 +17,19 @@ $this->title = 'My Yii Application';
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="../images/building-with-loft-windows-PJKTW79.jpg" alt="...">
+      <img src="<?php echo Url::base(true);?>/web/images/building-with-loft-windows-PJKTW79.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="../images/scaffolding-structure-on-a-building-construction-CLQ836F.jpg" alt="...">
+      <img src="<?php echo Url::base(true);?>/web/images/scaffolding-structure-on-a-building-construction-CLQ836F.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="../images/modern-multi-storey-industrial-building-PW3GDUS.jpg" alt="... ssdasd">
+      <img src="<?php echo Url::base(true);?>/web/images/modern-multi-storey-industrial-building-PW3GDUS.jpg" alt="... ssdasd">
       <div class="carousel-caption">
       <h3>Test heading</h3>
       <p>aaaaaaaaaaaaaaaaaa</p>
