@@ -66,7 +66,7 @@ if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
     NavBar::end();
     ?>
 
-    <div class="container contentarea">
+    <div class="container-fluid contentarea">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
