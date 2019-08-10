@@ -84,7 +84,7 @@ if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
                 <li><a href="#">Reviews</a></li>
                 <li><a href="#">Terms of service</a></li>
             </ul>
-        <p class="footer-copyright">© 2016 Copyright Text</p>
+        <p class="footer-copyright">&copy; Gomati Enterprise Pvt. Ltd.<?= date('Y') ?></p>
         </div>
         <div class="footer-social">
             <a href="#" class="social-icons"><i class="fa fa-facebook"></i></a>

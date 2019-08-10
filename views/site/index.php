@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 use yii\bootstrap\Carousel;
 use yii\helpers\Url;
-$this->title = 'My Yii Application';
+$this->title = 'Gomati Enterprise Pvt. Ltd';
 ?>
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -36,7 +36,7 @@ $this->title = 'My Yii Application';
       </div>
     </div>
     <div class="item">
-      <img src="../images/skyscrapers-and-modern-architecture-in-vienna-PW7L46K.jpg" alt="... ssdasd">
+      <img src="<?php echo Url::base(true);?>/web/images/skyscrapers-and-modern-architecture-in-vienna-PW7L46K.jpg" alt="... ssdasd">
       <div class="carousel-caption">
       <h3>Test heading</h3>
       <p>aaaaaaaaaaaaaaaaaa</p>
