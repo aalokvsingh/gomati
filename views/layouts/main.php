@@ -25,6 +25,7 @@ if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
 <html lang="<?= Yii::$app->language ?>">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
+    <meta name="google-site-verification" content="6h5_jKwY0IKm5ADH5eBKY8ju5RTTurrjdyHeytk7dQ4" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
