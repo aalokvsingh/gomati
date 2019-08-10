@@ -79,18 +79,18 @@ if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
 <footer id="myFooter">
         <div class="container1">
             <ul>
-                <li><a href="#">Company Information</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Reviews</a></li>
+                <li><a href="<?php echo Url::base(true);?>/site/about">Company Information</a></li>
+                <li><a href="<?php echo Url::base(true);?>/site/contact">Contact us</a></li>
+                <!-- <li><a href="#">Reviews</a></li> -->
                 <li><a href="#">Terms of service</a></li>
             </ul>
         <p class="footer-copyright">&copy; Gomati Enterprise Pvt. Ltd.<?= date('Y') ?></p>
         </div>
         <div class="footer-social">
-            <a href="#" class="social-icons"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="social-icons"><i class="fa fa-instagram"></i></a>
-            <a href="#" class="social-icons"><i class="fa fa-google-plus"></i></a>
-            <a href="#" class="social-icons"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/thegomati" target="_blank" class="social-icons"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/thegomati/" target="_blank" class="social-icons"><i class="fa fa-instagram"></i></a>
+            <!-- <a href="#" class="social-icons"><i class="fa fa-google-plus"></i></a> -->
+            <a href="https://twitter.com/thegomati" target="_blank" class="social-icons"><i class="fa fa-twitter"></i></a>
         </div>
     </footer>
 
